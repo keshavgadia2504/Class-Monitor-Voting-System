@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>Class Monitor Vote</title>
+
+<link
+    rel="stylesheet"
+    href="Class Monitor Website.css"
+>
+```
+
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>
+        Class Monitor Vote
+    </h1>
+
+
+    <div class="total-votes">
+
+        Total Votes
+
+        <span id="total-count">
+            0
+        </span>
+
+    </div>
+
+
+    <!-- =============================== -->
+    <!-- VOTING FORM -->
+    <!-- =============================== -->
+
+    <div class="vote-form">
+
+        <label for="student-name">
+            Student Name:
+        </label>
+
+        <input
+            type="text"
+            id="student-name"
+            autocomplete="off"
+        >
+
+
+        <label for="monitor">
+            Choose Monitor:
+        </label>
+
+        <select id="monitor">
+
+            <option value="Suresh">
+                Suresh
+            </option>
+
+            <option value="Deepank">
+                Deepank
+            </option>
+
+            <option value="Abhik">
+                Abhik
+            </option>
+
+        </select>
+
+
+        <button
+            id="vote-btn"
+            type="button"
+        >
+            Vote
+        </button>
+
+    </div>
+
+
+    <p id="message"></p>
+
+
+    <!-- =============================== -->
+    <!-- SURESH -->
+    <!-- =============================== -->
+
+    <div class="candidate">
+
+        <h2>
+            Suresh
+        </h2>
+
+        <p>
+            Total
+            <span id="Suresh-count">
+                0
+            </span>
+        </p>
+
+    </div>
+
+
+    <!-- =============================== -->
+    <!-- DEEPANK -->
+    <!-- =============================== -->
+
+    <div class="candidate">
+
+        <h2>
+            Deepank
+        </h2>
+
+        <p>
+            Total
+            <span id="Deepank-count">
+                0
+            </span>
+        </p>
+
+    </div>
+
+
+    <!-- =============================== -->
+    <!-- ABHIK -->
+    <!-- =============================== -->
+
+    <div class="candidate">
+
+        <h2>
+            Abhik
+        </h2>
+
+        <p>
+            Total
+            <span id="Abhik-count">
+                0
+            </span>
+        </p>
+
+    </div>
+
+
+    <!-- =============================== -->
+    <!-- INDIVIDUAL VOTES -->
+    <!-- =============================== -->
+
+    <h2>
+        Individual Votes
+    </h2>
+
+    <div id="vote-list"></div>
+
+
+</div>
+
+
+<!-- =============================== -->
+<!-- JAVASCRIPT -->
+<!-- =============================== -->
+
+<script src="script.js"></script>
+```
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: white;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+.container {
+
+    width: 90%;
+
+    margin: 30px auto;
+
+}
+
+
+/* =============================== */
+/* HEADING */
+/* =============================== */
+
+h1 {
+
+    text-align: center;
+
+    margin: 0;
+
+    font-family: Georgia, serif;
+
+    font-size: 30px;
+
+}
+
+
+/* =============================== */
+/* TOTAL VOTES */
+/* =============================== */
+
+.total-votes {
+
+    text-align: center;
+
+    margin-top: 5px;
+
+    margin-bottom: 25px;
+
+    font-size: 16px;
+
+}
+
+
+/* =============================== */
+/* FORM */
+/* =============================== */
+
+.vote-form {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 35px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.vote-form label {
+
+    font-size: 14px;
+
+}
+
+
+#student-name {
+
+    width: 150px;
+
+    height: 25px;
+
+    padding: 3px;
+
+}
+
+
+#monitor {
+
+    height: 25px;
+
+}
+
+
+#vote-btn {
+
+    padding: 3px 9px;
+
+    cursor: pointer;
+
+}
+
+
+/* =============================== */
+/* MESSAGE */
+/* =============================== */
+
+#message {
+
+    min-height: 20px;
+
+    margin-bottom: 20px;
+
+    font-weight: bold;
+
+}
+
+
+/* =============================== */
+/* CANDIDATES */
+/* =============================== */
+
+.candidate {
+
+    margin-bottom: 45px;
+
+}
+
+
+.candidate h2 {
+
+    margin: 0;
+
+    font-family: Georgia, serif;
+
+    font-size: 25px;
+
+}
+
+
+.candidate p {
+
+    margin-top: 3px;
+
+    font-size: 14px;
+
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+
+        width: 92%;
+
+    }
+
+
+    .vote-form {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+    }
+
+
+    #student-name {
+
+        width: 200px;
+
+    }
+
+}
